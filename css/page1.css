@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(../images/img1.jpg);
+  background-size: 100px;
+}
+}
+
+.instructions {
+  align-content: center;
+  background-color: skyblue;
+  width: 40vw; 
+  height: 40vh;
+  position: absolute;
+
+}
+
+.options {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  background-color: blue;
+  padding: 45px;
+}
+
+.instructions {
+  padding: 0 128px;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-family:'Fjalla One', sans-serif;
+}
+
+a:hover {
+  scale: 1.5px;
+}
+
+header {
+  font-family: 'Fjalla One', sans-serif;
+  align-content: center;
+  font-size: 150px;
+  margin-left: 350px;
+  color: #008080;
+}
+
+.options {
+  font-family:'Pathway Gothic One', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 27px;
+  align-content: center;
+  padding: 60px;
+  margin-left: 70px;
+  margin-right: 60px;
+}

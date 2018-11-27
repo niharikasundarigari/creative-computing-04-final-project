@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Fjalla One', sans-serif;
+  align-content: center;
+  color: #008080;
+  font-size: 117px;
+  margin-left: 6px;
+  color: #008080;
+  margin-bottom: 135px;
+}
+
+.content {
+	text-align: left;
+	padding-left : 50px;
+
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	color: black; 
+}
+
+
+.list {
+	text-align: left;
+	padding: 20px;
+}
+
+li {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+}
+
+li:hover {
+	transform: scale(0.5);
+}
