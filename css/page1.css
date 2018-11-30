@@ -49,11 +49,18 @@ a:hover {
 }
 
 header {
-  font-family: 'Fjalla One', sans-serif;
   align-content: center;
   font-size: 150px;
   margin-left: 350px;
   color: #008080;
+  background: url();
+}
+
+header:after {
+    content:' ';
+    display:block;
+    border:2px solid black;
+    margin-right: 400px;
 }
 
 .options {

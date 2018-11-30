@@ -1,9 +1,8 @@
+
 /*
   Returns a random whole number between minimum value and maximum value
-
   For example, calling randomNumber(0, 255);
   will return a random whole number between 0 and 255.
-
   Source: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
 */
 function randomNumber (min, max) {
@@ -12,10 +11,8 @@ function randomNumber (min, max) {
 
 /*
   Returns a random floating point number between minimum value and maximum value
-
   For example, calling randomFloat(0, 1);
   will return a random floating between 0.0 and 1.0.
-
   Source: https://stackoverflow.com/questions/9724404/random-floating-point-double-in-inclusive-range
 */
 function randomFloat (min, max) {
@@ -31,13 +28,12 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
-
-/*
+/* 
   Returns a color string in the form of "hsl(100, 50%, 50%)"
   For example, calling color(10, 100, 40);
   will return a string "hsl(10, 100%, 40%)"
 */
-function hslColor(h, s, l) {
+function hslColor(h, s, l) {  
   var hue = h;
   var saturation = s + "%";
   var luminance = l + "%";
@@ -48,4 +44,44 @@ function hslColor(h, s, l) {
 }
 
 
-/* START WRITING YOUR CODE BELOW */
+
+/* 
+
+TO DO:
+
+1. Randomize shape width
+2. Randomize shape height
+3. Randomize shape color
+4. Randomize background color
+5. Randomize border color
+
+*/
+
+var shape = document.querySelector(".shape");
+var shape2 = document.querySelector(".shape2");
+
+var width= randomNumber(150,700);
+var height= randomNumber(150, 1000);
+
+shape.style.width = width + "px";
+shape.style.height = height + "px";
+
+shape2.style.width = width + "px";
+shape2.style.height = height + "px";
+
+
+var h = randomNumber(0, 359);
+
+shape.style.background = hslColor(h, 30, 40);
+shape.style.borderColor = hslColor(h, 80, 90);
+
+shape2.style.background = hslColor(h, 30, 40);
+shape2.style.borderColor = hslColor(h, 50, 60);
+
+var container = document.querySelector(".content");
+
+container.style.background = hslColor(h, 50, 70);
+
+
+
+
