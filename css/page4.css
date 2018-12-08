@@ -15,6 +15,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+header {
+  font-size: 15px;
+  color: black;
+  font-family: 'Sigmar One'; 
+}
+
 
 .questions {
   position: absolute;
@@ -35,7 +41,7 @@ body {
   position: relative;
 }
 
-.shape {
+.shape1 {
   width: 200px;
   height: 200px;
   margin: 0 auto;
@@ -62,7 +68,7 @@ body {
   }
 }
 
-.variation-1 {
+.shape1 {
   animation-name: spin;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -70,7 +76,7 @@ body {
   animation-timing-function: linear;
 }
 
-.variation-2 {
+.shape2 {
   animation-name: zip;
   animation-duration: 2s;
   animation-iteration-count: infinite;

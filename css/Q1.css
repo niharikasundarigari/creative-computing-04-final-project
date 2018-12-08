@@ -16,10 +16,14 @@ header {
   margin-bottom: 135px;
 }
 
-header:after {
-    content:' ';
-    display:block;
-    border:2px solid black;
+
+header: after {
+    display: block;
+    margin-right: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
 }
 
 .content {
@@ -33,14 +37,16 @@ h1 {
 	color: #8a69ee; 
 }
 
+a {
+	text-decoration: none;
+}
+
 
 .list {
 	text-align: left;
 	width: 400px;
 	display: inline-block;
 	padding: 40px;
-
-
 	
 }
 

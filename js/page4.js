@@ -1,4 +1,4 @@
-
+  
 /*
   Returns a random whole number between minimum value and maximum value
   For example, calling randomNumber(0, 255);
@@ -57,14 +57,14 @@ TO DO:
 
 */
 
-var shape = document.querySelector(".shape");
+var shape1  = document.querySelector(".shape1");
 var shape2 = document.querySelector(".shape2");
 
 var width= randomNumber(150,700);
 var height= randomNumber(150, 1000);
 
-shape.style.width = width + "px";
-shape.style.height = height + "px";
+shape1.style.width = width + "px";
+shape1.style.height = height + "px";
 
 shape2.style.width = width + "px";
 shape2.style.height = height + "px";
@@ -72,8 +72,8 @@ shape2.style.height = height + "px";
 
 var h = randomNumber(0, 359);
 
-shape.style.background = hslColor(h, 30, 40);
-shape.style.borderColor = hslColor(h, 80, 90);
+shape1.style.background = hslColor(h, 30, 40);
+shape1.style.borderColor = hslColor(h, 80, 90);
 
 shape2.style.background = hslColor(h, 30, 40);
 shape2.style.borderColor = hslColor(h, 50, 60);
